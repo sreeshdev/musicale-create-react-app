@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./index.scss";
 import icon4 from "../../assets/images/icon4.svg";
 import icon6 from "../../assets/images/icon6.svg";

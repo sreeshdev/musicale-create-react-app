@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./index.scss";
 import prev from "../../assets/images/prev.svg";
 import next from "../../assets/images/next.svg";

@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
+import React from "react";
 import LeftArrow from "../../assets/images/right.svg";
 import RightArrow from "../../assets/images/left.svg";
 import NotificationIcon from "../../assets/images/notification.svg";
@@ -11,7 +10,6 @@ import { store } from "../../_helpers";
 import { playlistActions } from "../../_actions";
 
 const Header = ({ history, sidebar }) => {
-  // const [rightBar, setRightBar] = useState(false);
   console.log(sidebar);
   return (
     <div>
